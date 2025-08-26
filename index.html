@@ -1,0 +1,128 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoffeeMood — кофейня рядом с вами</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container header-grid">
+      <div class="logo">
+        <div class="logo-mark"></div>
+        <div class="logo-title">CoffeeMood</div>
+      </div>
+      <nav>
+        <a class="nav-link" href="#home">Главная</a>
+        <a class="nav-link" href="#about">О нас</a>
+        <a class="nav-link" href="#menu">Меню</a>
+        <a class="nav-link" href="#reviews">Отзывы</a>
+        <a class="nav-link" href="#contacts">Контакты</a>
+      </nav>
+      <div class="cta-wrap">
+        <a class="btn" href="#menu">Заказать сейчас</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="tag"><span class="dot"></span> Открыты ежедневно 8:00—22:00</div>
+          <h1 class="hero-title">Добро пожаловать в <span style="color:var(--accent)">CoffeeMood</span></h1>
+          <p class="hero-sub">Свежая обжарка, авторские напитки и уютная атмосфера в центре города.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#menu">Смотреть меню</a>
+            <a class="btn btn-outline" href="#about">Узнать о нас</a>
+          </div>
+        </div>
+        <div class="cup-wrap">
+          <div class="cup">
+            <div class="coffee"></div>
+            <div class="steam">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">О нас</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Обжариваем сами</h3>
+            <p>Мы работаем с зелёным зерном от фермеров и обжариваем малыми партиями.</p>
+          </div>
+          <div class="about-card">
+            <h3>Команда бариста</h3>
+            <p>Наши бариста — победители локальных чемпионатов. Подскажем сорт под ваш вкус.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu">
+      <div class="container">
+        <h2 class="section-title">Меню</h2>
+        <div class="menu-grid">
+          <div class="menu-card">☕ Эспрессо — 150 ₽</div>
+          <div class="menu-card">🥛 Капучино — 220 ₽</div>
+          <div class="menu-card">🧊 Айс Латте — 260 ₽</div>
+          <div class="menu-card">🍫 Мокко — 270 ₽</div>
+          <div class="menu-card">🍯 Раф с мёдом — 290 ₽</div>
+          <div class="menu-card">🌿 Матча Латте — 300 ₽</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews">
+      <div class="container">
+        <h2 class="section-title">Отзывы гостей</h2>
+        <div class="reviews-grid">
+          <div class="review">★★★★★ «Лучший раф!»</div>
+          <div class="review">★★★★★ «Фильтр каждый день разный.»</div>
+          <div class="review">★★★★☆ «Очень вкусные десерты.»</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <div>Адрес: г. Примерск, ул. Ароматная, 7</div>
+          <div>Телефон: +7 (999) 123-45-67</div>
+        </div>
+        <div class="map">[Карта]</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div>© 2025 CoffeeMood</div>
+      <div class="foot-links">
+        <a href="#about">О нас</a>
+        <a href="#menu">Меню</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+/* style.css */
+/* Переносим всё оформление, переменные, grid, адаптив и анимации в этот файл */
